@@ -56,9 +56,10 @@ We use a number of analysis/plotting notebooks to help any interested readers in
    ```
    Note that in general frequent subgraph mining is hard; if you decrease the weight threshold or increase the size of input graph,
    the gSpan algorithm may take a very long time to run. We use the above parameters to ensure efficiency.
+
    3. Go to ```./notebooks/motif_analysis_gspan.ipynb``` to analyse the frequent motifs
 
-3. Sampling under Prim, Skip and PrimSkip Constraints
+4. Sampling under Prim, Skip and PrimSkip Constraints
    1. Run ```./sample_archs.ipynb``` which randomly samples Prim, Skip and PrimSkip-constrained architectures. The notebook also queries
    the NB301 to obtain the predicted performance.
    2. To reproduce our result that actually trains the architectures (instead of using the predicted performance from NB301), you may save the
